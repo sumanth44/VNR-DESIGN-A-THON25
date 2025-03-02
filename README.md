@@ -1,7 +1,7 @@
 To run the project first go to CHATBOT 
-$ cd CHAtBOT
-$ install npm
-$ npm run dev
+ $ cd CHAtBOT
+ $ install npm
+ $ npm run dev
 
 And go to TEMPGEN
  $ cd..
