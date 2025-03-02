@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #ad28e2 50%, #ff1493 100%) !important; /* Black to deep violet to hot pink gradient */
+  margin: 0; /* Ensures no default margin interferes */
+  backdrop-filter: blur(5px); /* Optional: Adds blur to elements behind, though this works better on child elements */
+  -webkit-backdrop-filter: blur(5px); /* For Safari support */
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(26, 26, 26, 0.8); /* Slightly transparent black for contrast */
+  border-radius: 10px; /* Optional: Adds some smoothness */
+}
